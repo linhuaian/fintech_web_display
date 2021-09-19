@@ -1,0 +1,25 @@
+﻿.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+    background-color: #C0CEDB;
+    overflow-x: scroll; /* Scrollbar are always visible */
+    overflow: auto; /* Scrollbar is displayed as it's needed */
+    width: 10000px;
+    font-size: 40px;
+}
+
+.tableCell {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    color : black;
+}
+
+.tableRow:nth-child(even) {
+    border: 1px solid black;
+    background-color: #D0DBE5;
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
